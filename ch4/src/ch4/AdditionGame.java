@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class AdditionGame {
 
 	public static void main(String[] args) {
-			
+		//integer	
 		int x=1;
 	
 		while(x==1) {
+			//puts in scanner
 		Scanner input = new Scanner(System.in);
 		//variables
 		int num1 = (int)(System.currentTimeMillis() % 10);
